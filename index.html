@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-s9spZ2EJ9vP4O9k8b5zmjw8R5k/tQD5uo9a4M/1FR3R3SxmH8/d9UHNXfzJxFXn1zSy47ouqYKMpwoaM5+0tHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="main-sec" id="home">
+        <div class="navbar h-class">
+            <h4 class="logo">Kampamba Shula</h4>
+            <ul class="items v-class">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="videos.html" >videos</a></li>
+                <li><a href="resume.html">resume</a></li>
+                <li><a href="community.html">community & volunteering</a></li>
+                <li><a href="achievements.html">achievements</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="burger">&#9776</div>
+        </div>
+        <div class="row">
+            <div class="links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-twitter"></i>
+
+            </div>
+            <div class="left_side">
+                <p class="para">Software Developer & Consultant</p>
+                <h1>hi i'm <span>Kampamba</span> a software developer</h1>
+                <p class="para_2">Passionate mathematician, economist and seasoned software developer with a proven track record in research, consulting and policy analysis.</p>
+                <a href="about.html" class="btn">Explore More</a>
+                
+                
+
+            </div>
+            <div class="right_side">
+                <img src="images\ks.png" alt="">
+            </div>
+            
+        </div>
+        
+        <div class="slider">
+            <div><img src="images\team.jpg" alt="Image 1"></div>
+            <div><img src="images\cuts.jpg" alt="Image 2"></div>
+            
+            <!-- Add more slides as needed -->
+        </div>
+        
+        <div class="row">
+            <h2>Featured Videos</h2>
+
+            <!-- Video 1 -->
+            <div class="video">
+                <iframe width="800" height="683" src="https://www.youtube.com/embed/VU8Yghawopw" title="Diamond TV biz week with Kampamba Shula" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h3>Diamond TV biz week Interview</h3>
+                <p>Analysing Public debt management act</p>
+                <a href="https://www.youtube.com/embed/VU8Yghawopw" target="_blank">Watch on YouTube</a>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video">
+                <iframe width="466" height="800" src="https://www.youtube.com/embed/RLqHRrLSiR4" title="US inflation, sanctions against Russia contributing to African food crisis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h3>Video Title 2</h3>
+                <p>sub-saharan Impact of Grain and oil markets from Russia Ukraine war</p>
+                <a href="https://www.youtube.com/embed/RLqHRrLSiR4" target="_blank">Watch on YouTube</a>
+            </div>
+
+            <!-- Add more videos as needed -->
+
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 3000, // Set the duration for each slide
+                dots: true, // Show navigation dots
+                arrows: true // Show navigation arrows
+            });
+        });
+    </script>
+    <!-- Footer Section -->
+    <!-- Footer Section -->
+    <section class="footer">
+        <!-- Social Media Icons -->
+        <div class="social-links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <!-- Additional Links -->
+        <div class="additional-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="sitemap.html">Sitemap</a>
+        </div>
+
+        <!-- Copyright Text -->
+        <p>&copy; 2023 Kampamba Shula. All rights reserved.</p>
+    </section>
+
+
+    </section>
+
+</body>
+</html>
